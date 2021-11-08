@@ -1,0 +1,40 @@
+<div class="row" style="background-color: #6d7fcc; margin: 10px 5px; max-height: 76vh; overflow:hidden">
+    <div class="col-md-4" id="main-content" style="background-color: #fff;">
+        <!-- <div class="card-header" style="font-size: 1.5rem; border-radius: 20px; background-color: #fff"> -->
+        <div class="row">
+            <div class="col-sm-12" style="padding: 5px;">
+                <div class="container card-custom">
+                    <div class="car-header text-center">
+                        <h3>Crear Paciente</h3>
+                    </div>
+                    <div class="card-body text-center ">
+                        <h5 class="h3 mt-2">Datos del paciente</h5>
+                        <form class="form-group">
+                            <input class="form-control form-control-lg mt-3" type="text" placeholder="Nombre y apellido" id="patientName">
+                            <input class="form-control form-control-lg mt-3" type="email" placeholder="email@email.com" id="patientEmail">
+                            <input class="form-control form-control-lg mt-3" type="text" placeholder="Telefono (Ej. 2994110011)" id="patientPhone">
+                            <input class="form-control form-control-lg mt-3" type="text" placeholder="DNI" id="patientIdNumber">
+                            <input class="form-control form-control-lg mt-3" type="text" placeholder="Direccion" id="patientAddress">
+                            <input class="form-control form-control-lg mt-3" type="text" placeholder="Ciudad" id="patientCity">
+                            <button class="btn btn-lg btn-block mt-5 btn-custom" type="submit" style="background-color: #81b87c;color: #fff; font-weight: bold;">Crear</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- </div> -->
+
+    </div>
+    <div class="col-md-4 col-custom">
+        <p>Todos los pacientes pueden descargar la app de Turnero
+        </p>
+        <p style="font-size: 20px; margin: 20% 10%">A cada paciente que crees, se le vinculara un usuario y contrasena, y asi poder ingresar a la app. Alli podra ver sus turnos, recibir notificaciones, modificar turnos, etc.</p>
+        <a href="#" class="download" style="text-decoration: none; color:#6d7fcc; background-color: #fff; padding:0.5em; border-radius: 10px"><i class="fab fa-google-play"></i><span style="margin-left: 0.7em;">Descarga la App</span></a>
+        <!-- <h1>{{ (professionals | async)?.entries }}</h1> -->
+    </div>
+    <div class="col-md-4 col-custom">
+        <img src="../../../assets/img/cellphone.png" alt="" style="max-height: 65%;">
+    </div>
+</div>

@@ -1,0 +1,35 @@
+.row-custom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-01 {
+    background: #6d7fcc;
+    position: relative;
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 300px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(85, 85, 85, 0.5);
+}
+
+.card-01 p {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.row-custom i {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.card-01:hover {
+    opacity: 0.8;
+}

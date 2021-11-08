@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'turnero';
+  opened = true;
+  
+  
+  // funciones
+
+  toggleSidebar() {
+    this.opened = !this.opened;
+  }
+
 }

@@ -1,0 +1,83 @@
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <h4>Bienvenido a Turnero</h4>
+    </div>
+
+    <ul class="list-unstyled components">
+        <p>Salita Fernandez Oro</p>
+        <!-- PANEL DE CONTROL -->
+        <li>
+            <a routerLink="/">Inicio</a>
+        </li>
+        <!-- AGREGAR PACIENTE -->
+        <li>
+            <a routerLink="/addPatient">Crear Paciente</a>
+        </li>
+        <!-- TURNOS --  FASE 1 -->
+        <li class="active">
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Turnos</a>
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li>
+                    <a routerLink="/addAppointment" id="btnAddTurno"><i class="fas fa-calendar-plus"></i><span style="margin-left: 1.1em;">Agregar/Modificar</span></a>
+                </li>
+                <li>
+                    <a routerLink="/appointmentSchedule"><i class="fas fa-calendar-alt"></i><span style="margin-left: 1.1em;">Ver turnos por fecha</span></a>
+                </li>
+                <li>
+                    <a routerLink="/appointmentSchema" id="btnEsquemaDeTurnos"><i class="fas fa-project-diagram"></i><span style="margin-left: 1.1em;">Esquema de turnos</span></a>
+                </li>
+                <!-- <li>
+                    <a href="#"><i class="fas fa-window-close"></i><span style="margin-left: 1.1em;">Cancelar Turnos</span></a>
+                </li> -->
+            </ul>
+        </li>
+        <!-- PROFESIONALES ESPECIALIDADES CONSULTORIOS --  FASE 1 -->
+        <li>
+            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Profesionales y Especialidades</a>
+            <ul class="collapse list-unstyled" id="pageSubmenu">
+                <li>
+                    <a routerLink="/addProfessional" id="btnAddProf"><i class="fas fa-user-plus"></i><span style="margin-left: 1.1em;">Agregar Profesional</span></a>
+                </li>
+                <li>
+                    <a routerLink="/addSpeciality"><i class="fas fa-plus-square"></i><span style="margin-left: 1.1em;">Agregar Especialidad</span></a>
+                </li>
+                <li>
+                    <a routerLink="/addRoom"><i class="fas fa-hospital"></i><span style="margin-left: 1.1em;">Agregar Consultorio</span></a>
+                </li>
+            </ul>
+        </li>
+        <!-- REPORTES --  FASE 2 -->
+        <li>
+            <a href="#reportsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Reportes</a>
+            <ul class="collapse list-unstyled" id="reportsSubmenu">
+                <li>
+                    <a href="#"><i class="fas fa-calendar"></i><span style="margin-left: 1.1em;">Turnos diario</span></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-calendar"></i><span style="margin-left: 1.1em;">Turnos semanal</span></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-calendar"></i><span style="margin-left: 1.1em;">Turnos Mensual</span></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-briefcase-medical"></i><span style="margin-left: 1.1em;">Turnos por profesional</span></a>
+                </li>
+
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Ayuda y Contacto</a>
+        </li>
+        <li>
+            <a href="#">Contacto</a>
+        </li>
+    </ul>
+
+    <ul class="list-unstyled CTAs">
+        <li>
+            <a href="#" class="download"><i class="fab fa-google-play"></i><span style="margin-left: 0.7em;">Descarga la App</span></a>
+        </li>
+
+    </ul>
+</nav>

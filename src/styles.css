@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.content-dashboard {
+    border: 1px solid #6d7fcc;
+    /* padding: 10px; */
+    border-radius: 20px;
+    max-height: 85vh;
+    min-height: 87vh;
+    max-height: 87vh
+}
+
+.container-custom {
+    max-width: 100%;
+    background-color: #6d7fcc;
+    height: 4em;
+    border-radius: 20px 20px 0 0;
+    padding: 1em;
+    color: #fff
+}

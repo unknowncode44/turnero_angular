@@ -1,0 +1,16 @@
+.container-custom {
+    max-width: 100%;
+    background-color: #6d7fcc;
+    height: 4em;
+    border-radius: 20px 20px 0 0;
+    padding: 1em;
+    color: #fff
+}
+
+.speciality {
+    font-size: 22px;
+}
+
+input .speciality {
+    font-size: 18px;
+}

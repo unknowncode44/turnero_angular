@@ -1,0 +1,42 @@
+<div class="content-dashboard" style="">
+    <div class="container-custom" style="">
+        <h3>Agregar turno</h3>
+    </div>
+    <div class="row mt-2 mr-2 ml-2">
+        <div class="col-md-6">
+            <form action="" class="form-group mt-2">
+
+                <legend>Nuevo turno</legend>
+                <label for="selectProfessional" class="speciality">Seleccionar Profesional</label>
+                <div class="row">
+                    <div class="col-md-3">
+                        <select [(ngModel)]="professionalId" class="form-control" name="professionalId" id="professionalId">
+                        <option>Seleccionar</option>
+                        <option *ngFor="let professional of allProfessionals |async" value="{{professional.id}}">{{professional.name}}</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn">ver</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 speciality">
+                        <label for="staticSpeciality" class="col-form-label">Especialidad:</label>
+                    </div>
+                    <div class="col-md-6 speciality">
+                        <input type="text" readonly="" class="form-control-plaintext" id="staticSpeciality" value="{{professionalId}}">
+                    </div>
+                </div>
+                <button class="btn mt-5" type="submit">Crear Turno</button>
+            </form>
+        </div>
+        <div class="col-md-4">
+            <h3>Profesionales</h3>
+            <ul>
+                <li>
+                    <p>{{professional01}}</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
